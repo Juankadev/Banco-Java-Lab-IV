@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+
+body{
+	margin-top: auto !important;
+	overflow-x: hidden;
+}
+
+.bod{
+	background: #0c0d0f;
+	width: 100%;
+	height:content-fit;
+}
+
+h3{
+	color: #fff;
+}
+
+
+ul > li {
+	list-style: none;
+	color: #fff;
+}

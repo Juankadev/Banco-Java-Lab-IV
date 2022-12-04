@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+.filters-content > form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.item{
+	margin-bottom: 5px;
+}
+
+.item > .item__header{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.line-bottom{
+	width: 50%;
+	height: 7%;
+	margin: 0 auto;
+	background: green;
+	margin-bottom: 10px;
+}
+
+.sub{
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	background: #036564;
+}
+
+.sub:hover{
+	background: linear-gradient(to bottom, #036564, #50CE8B)
+}
+.sub:active{
+	background: linear-gradient(to top, #036564, #50CE8B)
+}

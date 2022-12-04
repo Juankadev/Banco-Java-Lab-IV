@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+/*.color1 { #e8ddcb };
+.color2 { #cdb380 };
+.color3 { #036564 };
+.color4 { #033649 };
+.color5 { #031634 };*/
+
+body{
+	width:100vw;height:100vh;background-color:#1c232e;color:white
+}
+.container {
+	margin-right:0;
+	padding-right:0;
+}
+
+.col-background{
+	margin:auto auto; 
+	background-color:#000;
+	height:100%;
+	width:100%;
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image: url("https://images.pexels.com/photos/7567434/pexels-photo-7567434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.btn-primary {
+    --bs-btn-border-color: rgba(0,0,0,0);
+}
+
+.btn:hover {
+    border-color: white;
+}
+
+.btn-ingresar{
+	width:20rem; 
+	background-color:#03484c;
+}
+
+.form-group{
+	margin-bottom:20px;
+}
+
+.form-login{
+	width:20rem;
+	margin-left:50px;
+}
+
+.titulo{
+	margin-bottom:80px;
+	margin-top:100px;
+	margin-left:50px;
+	width:20rem;
+	text-align:center
+}

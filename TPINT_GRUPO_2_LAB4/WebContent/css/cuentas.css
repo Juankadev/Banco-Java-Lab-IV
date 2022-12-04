@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+.error{
+	display: none;
+}
+
+.error-msg{
+	display: block;
+	color: red;
+}
+
+.error-obj{
+	border: 1px solid red;
+}
+
+.msgServlet{
+	font-size: 20px;
+	color: white;
+	background: green;
+	border-radius: 10px;
+	height: 100%;
+	margin: auto 0;
+}
